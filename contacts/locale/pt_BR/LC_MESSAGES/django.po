@@ -1,0 +1,780 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-04 00:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forms.py:105 models.py:187 templates/contacts/person/detail.html:54
+msgid "laboral levels"
+msgstr ""
+
+#: forms.py:110 models.py:65
+msgid "Registrant"
+msgstr ""
+
+#: forms.py:111 models.py:66
+msgid "Guest"
+msgstr ""
+
+#: forms.py:112
+msgid "Sponsor"
+msgstr ""
+
+#: forms.py:113
+msgid "Organizer"
+msgstr ""
+
+#: forms.py:118 models.py:137
+msgid "Data ok"
+msgstr ""
+
+#: forms.py:119 models.py:138
+msgid "Incorrect data"
+msgstr ""
+
+#: forms.py:120 models.py:139
+msgid "Missed data"
+msgstr ""
+
+#: forms.py:121
+msgid "Unknown person"
+msgstr ""
+
+#: forms.py:127 models.py:162
+msgid "last name"
+msgstr ""
+
+#: forms.py:128 forms.py:144 models.py:167
+#: templates/contacts/person/stats.html:28
+msgid "contact type"
+msgstr ""
+
+#: forms.py:129 models.py:169 tables.py:43
+msgid "ID card"
+msgstr ""
+
+#: forms.py:130 models.py:221 tables.py:22
+#: templates/contacts/person/stats.html:29
+msgid "status"
+msgstr ""
+
+#: forms.py:131
+msgid "course"
+msgstr ""
+
+#: forms.py:132
+msgid "mail not paid unsent"
+msgstr ""
+
+#: forms.py:133
+msgid "mail registration unsent"
+msgstr ""
+
+#: forms.py:145 models.py:205 templates/contacts/person/detail.html:31
+msgid "math society"
+msgstr ""
+
+#: forms.py:146 models.py:175 models.py:201
+msgid "province"
+msgstr ""
+
+#: forms.py:147 models.py:210
+msgid "lang"
+msgstr ""
+
+#: forms.py:152
+msgid "stats by"
+msgstr ""
+
+#: models.py:20 models.py:343
+msgid "code"
+msgstr ""
+
+#: models.py:21
+msgid "title"
+msgstr ""
+
+#: models.py:22 models.py:345
+msgid "description"
+msgstr ""
+
+#: models.py:23
+msgid "url_moodle"
+msgstr ""
+
+#: models.py:25 models.py:232 models.py:350
+msgid "date added"
+msgstr ""
+
+#: models.py:27 models.py:235 models.py:352
+msgid "date modified"
+msgstr ""
+
+#: models.py:32
+msgid "Course"
+msgstr ""
+
+#: models.py:33 templates/contacts/person/detail.html:29
+msgid "Courses"
+msgstr ""
+
+#: models.py:67
+msgid "Teacher"
+msgstr ""
+
+#: models.py:140
+msgid "Pendent"
+msgstr ""
+
+#: models.py:161
+msgid "first name"
+msgstr ""
+
+#: models.py:163
+msgid "nickname"
+msgstr ""
+
+#: models.py:164
+msgid "slug"
+msgstr ""
+
+#: models.py:165
+msgid "about"
+msgstr ""
+
+#: models.py:166
+msgid "photo"
+msgstr ""
+
+#: models.py:172 models.py:198 templates/contacts/person/detail.html:43
+#: templates/contacts/person/detail.html:65
+msgid "address"
+msgstr ""
+
+#: models.py:173 models.py:199
+msgid "postal code"
+msgstr ""
+
+#: models.py:174 models.py:200
+msgid "town"
+msgstr ""
+
+#: models.py:177 tables.py:16 tables.py:45
+#: templates/contacts/person/detail.html:45
+msgid "email address"
+msgstr ""
+
+#: models.py:178 models.py:202 tables.py:44
+#: templates/contacts/person/detail.html:46
+#: templates/contacts/person/detail.html:67
+msgid "phone number"
+msgstr ""
+
+#: models.py:179 templates/contacts/person/detail.html:47
+msgid "mobile number"
+msgstr ""
+
+#: models.py:180 templates/contacts/person/detail.html:48
+msgid "twitter"
+msgstr ""
+
+#: models.py:183 templates/contacts/person/detail.html:53
+msgid "laboral category"
+msgstr ""
+
+#: models.py:188 templates/contacts/person/detail.html:55
+msgid "NRP"
+msgstr ""
+
+#: models.py:189 templates/contacts/person/detail.html:56
+msgid "years experience"
+msgstr ""
+
+#: models.py:190 templates/contacts/person/detail.html:57
+msgid "cos docent"
+msgstr ""
+
+#: models.py:192 templates/contacts/person/detail.html:58
+msgid "degree"
+msgstr ""
+
+#: models.py:196 templates/contacts/person/detail.html:64
+msgid "center name"
+msgstr ""
+
+#: models.py:197
+msgid "center code"
+msgstr ""
+
+#: models.py:209 templates/contacts/person/detail.html:37
+msgid "remarks"
+msgstr ""
+
+#: models.py:211
+msgid "external id"
+msgstr ""
+
+#: models.py:215
+msgid "location"
+msgstr ""
+
+#: models.py:219 templates/contacts/person/detail.html:28
+msgid "date registration"
+msgstr ""
+
+#: models.py:220 templates/contacts/person/detail.html:32
+msgid "revision"
+msgstr ""
+
+#: models.py:222 templates/contacts/person/detail.html:33
+msgid "paid"
+msgstr ""
+
+#: models.py:223 templates/contacts/person/detail.html:34
+msgid "date paid"
+msgstr ""
+
+#: models.py:224 templates/contacts/person/detail.html:35
+msgid "date mail not paid"
+msgstr ""
+
+#: models.py:225 templates/contacts/person/detail.html:36
+msgid "date mail registration"
+msgstr ""
+
+#: models.py:242
+msgid "person"
+msgstr ""
+
+#: models.py:243
+msgid "people"
+msgstr ""
+
+#: models.py:344
+msgid "subject"
+msgstr ""
+
+#: models.py:346
+msgid "body"
+msgstr ""
+
+#: models.py:347
+msgid "attachment"
+msgstr ""
+
+#: models.py:348
+msgid "second attachment"
+msgstr ""
+
+#: models.py:357
+msgid "Mail template"
+msgstr ""
+
+#: models.py:358
+msgid "Mail templates"
+msgstr ""
+
+#: tables.py:12 tables.py:30 tables.py:51
+msgid "Actions"
+msgstr ""
+
+#: functions/mailtemplate.py:26
+msgid "Mail not sent"
+msgstr ""
+
+#: functions/mailtemplate.py:45
+msgid "Error generating pdf"
+msgstr ""
+
+#: functions/mailtemplate.py:51 views/reporting.py:188 views/reporting.py:218
+msgid "Mail sent"
+msgstr ""
+
+#: functions/mailtemplate.py:55
+msgid "Error sending mail"
+msgstr ""
+
+#: templates/contacts/_comment_list.html:6
+msgid "Notes"
+msgstr ""
+
+#: templates/contacts/base.html:6 templates/contacts/base_pdf.html:6
+msgid "Contacts"
+msgstr ""
+
+#: templates/contacts/base.html:64
+msgid "Logout"
+msgstr ""
+
+#: templates/contacts/base.html:91
+msgid "Latest records"
+msgstr ""
+
+#: templates/contacts/login.html:5
+msgid "Welcome to Inscripcions-CFD"
+msgstr ""
+
+#: templates/contacts/login.html:13
+msgid "Your username and password didn"
+msgstr ""
+
+#: templates/contacts/login.html:20 templates/contacts/login.html.py:24
+msgid "Login"
+msgstr ""
+
+#: templates/contacts/course/create.html:5
+#: templates/contacts/course/create.html:8
+msgid "Add a new course"
+msgstr ""
+
+#: templates/contacts/course/create.html:16
+#: templates/contacts/mailtemplate/create.html:16
+#: templates/contacts/person/create.html:16
+msgid "Create and continue"
+msgstr ""
+
+#: templates/contacts/course/create.html:23
+#: templates/contacts/course/delete.html:36
+#: templates/contacts/course/detail.html:23
+#: templates/contacts/course/update.html:25
+#: templates/contacts/mailtemplate/create.html:23
+#: templates/contacts/mailtemplate/delete.html:36
+#: templates/contacts/mailtemplate/detail.html:25
+#: templates/contacts/mailtemplate/update.html:25
+#: templates/contacts/person/cancel.html:58
+#: templates/contacts/person/create.html:23
+#: templates/contacts/person/delete.html:36
+#: templates/contacts/person/detail.html:77
+#: templates/contacts/person/import.html:51
+#: templates/contacts/person/map.html:79
+#: templates/contacts/person/stats.html:50
+#: templates/contacts/person/synchronize.html:29
+#: templates/contacts/person/update.html:88
+#: templates/contacts/person/update_status.html:21
+msgid "Return to list"
+msgstr ""
+
+#: templates/contacts/course/delete.html:4
+#: templates/contacts/course/delete.html:7
+#: templates/contacts/course/delete.html:29
+#: templates/contacts/course/detail.html:26
+#: templates/contacts/course/update.html:28
+#: templates/contacts/mailtemplate/delete.html:4
+#: templates/contacts/mailtemplate/delete.html:7
+#: templates/contacts/mailtemplate/delete.html:29
+#: templates/contacts/mailtemplate/detail.html:28
+#: templates/contacts/mailtemplate/update.html:28
+#: templates/contacts/person/delete.html:4
+#: templates/contacts/person/delete.html:7
+#: templates/contacts/person/delete.html:29
+#: templates/contacts/person/detail.html:96
+#: templates/contacts/person/update.html:107
+msgid "Delete"
+msgstr ""
+
+#: templates/contacts/course/delete.html:13
+#: templates/contacts/mailtemplate/delete.html:13
+#: templates/contacts/person/cancel.html:25
+#: templates/contacts/person/delete.html:13
+#: templates/contacts/person/list.html:16
+msgid "Warning!"
+msgstr ""
+
+#: templates/contacts/course/delete.html:14
+#: templates/contacts/mailtemplate/delete.html:14
+#: templates/contacts/person/delete.html:14
+msgid "You are about to delete this record. Do you want to continue?"
+msgstr ""
+
+#: templates/contacts/course/delete.html:20
+#: templates/contacts/mailtemplate/delete.html:20
+#: templates/contacts/person/cancel.html:36
+#: templates/contacts/person/delete.html:20
+msgid "Confirm"
+msgstr ""
+
+#: templates/contacts/course/delete.html:23
+#: templates/contacts/mailtemplate/delete.html:23
+#: templates/contacts/person/cancel.html:39
+#: templates/contacts/person/delete.html:23
+msgid "No"
+msgstr ""
+
+#: templates/contacts/course/delete.html:24
+#: templates/contacts/mailtemplate/delete.html:24
+#: templates/contacts/person/cancel.html:40
+#: templates/contacts/person/delete.html:24
+msgid "Yes"
+msgstr ""
+
+#: templates/contacts/course/detail.html:12
+#: templates/contacts/mailtemplate/detail.html:12
+msgid "Code"
+msgstr ""
+
+#: templates/contacts/course/detail.html:13
+msgid "Title"
+msgstr ""
+
+#: templates/contacts/course/detail.html:14
+msgid "Moodle URL"
+msgstr ""
+
+#: templates/contacts/course/detail.html:15
+#: templates/contacts/mailtemplate/detail.html:14
+msgid "Description"
+msgstr ""
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "Record created in"
+msgstr ""
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "by"
+msgstr ""
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "Modified in"
+msgstr ""
+
+#: templates/contacts/course/detail.html:24
+#: templates/contacts/course/update.html:5
+#: templates/contacts/mailtemplate/detail.html:26
+#: templates/contacts/mailtemplate/update.html:5
+#: templates/contacts/person/cancel.html:60
+#: templates/contacts/person/detail.html:78
+#: templates/contacts/person/update.html:5
+msgid "Edit"
+msgstr ""
+
+#: templates/contacts/course/detail.html:25
+#: templates/contacts/course/update.html:27
+#: templates/contacts/mailtemplate/detail.html:27
+#: templates/contacts/mailtemplate/update.html:27
+msgid "Copy"
+msgstr ""
+
+#: templates/contacts/course/list.html:5 templates/contacts/course/list.html:8
+msgid "List of courses"
+msgstr ""
+
+#: templates/contacts/course/list.html:18
+#: templates/contacts/mailtemplate/list.html:18
+#: templates/contacts/person/list.html:44
+msgid "Create"
+msgstr ""
+
+#: templates/contacts/course/update.html:16
+#: templates/contacts/mailtemplate/update.html:16
+#: templates/contacts/person/revision.html:21
+#: templates/contacts/person/update.html:74
+msgid "Save"
+msgstr ""
+
+#: templates/contacts/course/update.html:26
+#: templates/contacts/mailtemplate/update.html:26
+#: templates/contacts/person/cancel.html:59
+#: templates/contacts/person/update.html:89
+msgid "Read"
+msgstr ""
+
+#: templates/contacts/mailtemplate/create.html:5
+#: templates/contacts/mailtemplate/create.html:8
+msgid "Add a new mail template"
+msgstr ""
+
+#: templates/contacts/mailtemplate/detail.html:13
+msgid "Subject"
+msgstr ""
+
+#: templates/contacts/mailtemplate/detail.html:15
+msgid "Body"
+msgstr ""
+
+#: templates/contacts/mailtemplate/detail.html:16
+msgid "Attachment"
+msgstr ""
+
+#: templates/contacts/mailtemplate/detail.html:17
+msgid "Second attachment"
+msgstr ""
+
+#: templates/contacts/mailtemplate/list.html:5
+#: templates/contacts/mailtemplate/list.html:8
+msgid "List of mail templates"
+msgstr ""
+
+#: templates/contacts/person/cancel.html:6
+#: templates/contacts/person/cancel.html:15
+#: templates/contacts/person/cancel.html:47
+#: templates/contacts/person/detail.html:92
+#: templates/contacts/person/update.html:103
+msgid "Get inscription back"
+msgstr ""
+
+#: templates/contacts/person/cancel.html:8
+#: templates/contacts/person/cancel.html:17
+#: templates/contacts/person/cancel.html:49
+#: templates/contacts/person/detail.html:94
+#: templates/contacts/person/update.html:105
+msgid "Cancel inscription"
+msgstr ""
+
+#: templates/contacts/person/cancel.html:27
+msgid "You are about to get this inscription back. Do you want to continue?"
+msgstr ""
+
+#: templates/contacts/person/cancel.html:29
+msgid "You are about to cancel this inscription. Do you want to continue?"
+msgstr ""
+
+#: templates/contacts/person/create.html:5
+#: templates/contacts/person/create.html:8
+msgid "Add a new Person"
+msgstr ""
+
+#: templates/contacts/person/detail.html:16
+#: templates/contacts/person/update_form_old.html:3
+msgid "Personal Data"
+msgstr ""
+
+#: templates/contacts/person/detail.html:18
+msgid "Nom"
+msgstr ""
+
+#: templates/contacts/person/detail.html:23
+msgid "ID Card"
+msgstr ""
+
+#: templates/contacts/person/detail.html:27
+msgid "Registre cursos"
+msgstr ""
+
+#: templates/contacts/person/detail.html:30
+msgid "Contact type"
+msgstr ""
+
+#: templates/contacts/person/detail.html:42
+msgid "Dades de contacte"
+msgstr ""
+
+#: templates/contacts/person/detail.html:52
+msgid "Dades laborals"
+msgstr ""
+
+#: templates/contacts/person/detail.html:63
+msgid "Centre de feina"
+msgstr ""
+
+#: templates/contacts/person/detail.html:80
+#: templates/contacts/person/update.html:91
+msgid "Justificant de pagament"
+msgstr ""
+
+#: templates/contacts/person/detail.html:83
+#: templates/contacts/person/update.html:94
+msgid "Justificant de inscripcio"
+msgstr ""
+
+#: templates/contacts/person/detail.html:86
+#: templates/contacts/person/detail.html:105
+#: templates/contacts/person/update.html:97
+#: templates/contacts/person/update.html:116
+msgid "Send mail inscription ok"
+msgstr ""
+
+#: templates/contacts/person/detail.html:89
+#: templates/contacts/person/detail.html:119
+#: templates/contacts/person/update.html:100
+#: templates/contacts/person/update.html:129
+msgid "Send mail payment overdue"
+msgstr ""
+
+#: templates/contacts/person/detail.html:99
+#: templates/contacts/person/detail.html:110
+#: templates/contacts/person/detail.html:124
+#: templates/contacts/person/detail.html:135
+#: templates/contacts/person/update.html:110
+#: templates/contacts/person/update.html:121
+#: templates/contacts/person/update.html:134
+#: templates/contacts/person/update.html:144
+msgid "Send mail"
+msgstr ""
+
+#: templates/contacts/person/detail.html:107
+#: templates/contacts/person/update.html:118
+msgid "You are about to send the inscription ok mail"
+msgstr ""
+
+#: templates/contacts/person/detail.html:109
+#: templates/contacts/person/detail.html:123
+#: templates/contacts/person/detail.html:136
+#: templates/contacts/person/update.html:120
+#: templates/contacts/person/update.html:133
+#: templates/contacts/person/update.html:145
+msgid "Close"
+msgstr ""
+
+#: templates/contacts/person/detail.html:110
+#: templates/contacts/person/detail.html:124
+#: templates/contacts/person/detail.html:138
+#: templates/contacts/person/update.html:121
+#: templates/contacts/person/update.html:134
+#: templates/contacts/person/update.html:147
+msgid "sending"
+msgstr ""
+
+#: templates/contacts/person/detail.html:121
+#: templates/contacts/person/update.html:131
+msgid "You are about to send a payment overdue mail"
+msgstr ""
+
+#: templates/contacts/person/detail.html:137
+#: templates/contacts/person/update.html:146
+msgid "You are about to send the mail with subject: "
+msgstr ""
+
+#: templates/contacts/person/import.html:4
+#: templates/contacts/person/import.html:7
+msgid "Import people from CSV"
+msgstr ""
+
+#: templates/contacts/person/import.html:31
+msgid "Error"
+msgstr ""
+
+#: templates/contacts/person/import.html:37
+msgid "Load file"
+msgstr ""
+
+#: templates/contacts/person/list.html:5 templates/contacts/person/list.html:8
+msgid "List of contacts"
+msgstr ""
+
+#: templates/contacts/person/list.html:17
+#: templates/contacts/person/list.html:45
+#: templates/contacts/person/synchronize.html:23
+msgid "Synchronize"
+msgstr ""
+
+#: templates/contacts/person/list.html:27
+#: templates/contacts/person/list.html:36
+#: templates/contacts/person/map.html:16 templates/contacts/person/map.html:28
+msgid "Filter"
+msgstr ""
+
+#: templates/contacts/person/list.html:46
+msgid "Export"
+msgstr ""
+
+#: templates/contacts/person/list.html:47
+msgid "Import"
+msgstr ""
+
+#: templates/contacts/person/list.html:48
+#: templates/contacts/person/stats.html:6
+#: templates/contacts/person/stats.html:9
+#: templates/contacts/person/update_status.html:22
+msgid "Inscription stats"
+msgstr ""
+
+#: templates/contacts/person/list.html:49
+#: templates/contacts/person/stats.html:51
+#: templates/contacts/person/update_status.html:5
+#: templates/contacts/person/update_status.html:8
+msgid "Update records status"
+msgstr ""
+
+#: templates/contacts/person/map.html:4 templates/contacts/person/map.html:7
+msgid "Map of contacts"
+msgstr ""
+
+#: templates/contacts/person/revision.html:4
+#: templates/contacts/person/revision.html:7
+#: templates/contacts/person/revision.html:16
+msgid "Revision"
+msgstr ""
+
+#: templates/contacts/person/revision.html:28
+msgid "Return to record"
+msgstr ""
+
+#: templates/contacts/person/stats.html:19
+msgid "Params"
+msgstr ""
+
+#: templates/contacts/person/stats.html:22
+msgid "Set"
+msgstr ""
+
+#: templates/contacts/person/synchronize.html:5
+#: templates/contacts/person/synchronize.html:8
+msgid "Synchronize inscriptions from SPIP"
+msgstr ""
+
+#: templates/contacts/person/update.html:16
+#: templates/contacts/person/update.html:23
+#: templates/contacts/person/update.html:30
+#: templates/contacts/person/update.html:37
+msgid "Error at"
+msgstr ""
+
+#: templates/contacts/person/update.html:16
+#: templates/contacts/person/update.html:46
+msgid "Identification"
+msgstr ""
+
+#: templates/contacts/person/update.html:23
+#: templates/contacts/person/update.html:47
+msgid "Registration"
+msgstr ""
+
+#: templates/contacts/person/update.html:30
+#: templates/contacts/person/update.html:48
+msgid "Contact information"
+msgstr ""
+
+#: templates/contacts/person/update.html:37
+#: templates/contacts/person/update.html:49
+msgid "Laboral data"
+msgstr ""
+
+#: templates/contacts/person/update_form_old.html:15
+msgid "Registration info"
+msgstr ""
+
+#: templates/contacts/person/update_form_old.html:20
+msgid "Contact info"
+msgstr ""
+
+#: templates/contacts/person/update_form_old.html:34
+msgid "Location"
+msgstr ""

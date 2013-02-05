@@ -1,0 +1,1070 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-04 00:48+0100\n"
+"PO-Revision-Date: 2013-01-20 23:53+0100\n"
+"Last-Translator: Biel Frontera <sindbili@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:105 models.py:187 templates/contacts/person/detail.html:54
+msgid "laboral levels"
+msgstr "Nivells"
+
+#: forms.py:110 models.py:65
+msgid "Registrant"
+msgstr "Inscrit"
+
+#: forms.py:111 models.py:66
+msgid "Guest"
+msgstr "Convidat"
+
+#: forms.py:112
+msgid "Sponsor"
+msgstr "Patrocinador"
+
+#: forms.py:113
+msgid "Organizer"
+msgstr "Organització"
+
+#: forms.py:118 models.py:137
+msgid "Data ok"
+msgstr "Dades ok"
+
+#: forms.py:119 models.py:138
+msgid "Incorrect data"
+msgstr "Dades incorrectes"
+
+#: forms.py:120 models.py:139
+msgid "Missed data"
+msgstr "Falten dades"
+
+#: forms.py:121
+msgid "Unknown person"
+msgstr "Persona desconeguda"
+
+#: forms.py:127 models.py:162
+msgid "last name"
+msgstr "Llinatges"
+
+#: forms.py:128 forms.py:144 models.py:167
+#: templates/contacts/person/stats.html:28
+msgid "contact type"
+msgstr "Tipus d'inscripció"
+
+#: forms.py:129 models.py:169 tables.py:43
+msgid "ID card"
+msgstr "DNI"
+
+#: forms.py:130 models.py:221 tables.py:22
+#: templates/contacts/person/stats.html:29
+msgid "status"
+msgstr "estat"
+
+#: forms.py:131
+msgid "course"
+msgstr ""
+
+#: forms.py:132
+msgid "mail not paid unsent"
+msgstr "Correu pagament retrassat no enviat"
+
+#: forms.py:133
+msgid "mail registration unsent"
+msgstr "Correu confirmació inscripció no enviat"
+
+#: forms.py:145 models.py:205 templates/contacts/person/detail.html:31
+msgid "math society"
+msgstr "Societat"
+
+#: forms.py:146 models.py:175 models.py:201
+msgid "province"
+msgstr "província"
+
+#: forms.py:147 models.py:210
+msgid "lang"
+msgstr "Idioma"
+
+#: forms.py:152
+msgid "stats by"
+msgstr "estadístiques per"
+
+#: models.py:20 models.py:343
+msgid "code"
+msgstr "codi"
+
+#: models.py:21
+msgid "title"
+msgstr ""
+
+#: models.py:22 models.py:345
+msgid "description"
+msgstr "descripció"
+
+#: models.py:23
+msgid "url_moodle"
+msgstr ""
+
+#: models.py:25 models.py:232 models.py:350
+msgid "date added"
+msgstr "Afegit en data"
+
+#: models.py:27 models.py:235 models.py:352
+msgid "date modified"
+msgstr "Modificat en data"
+
+#: models.py:32
+msgid "Course"
+msgstr ""
+
+#: models.py:33 templates/contacts/person/detail.html:29
+msgid "Courses"
+msgstr ""
+
+#: models.py:67
+msgid "Teacher"
+msgstr ""
+
+#: models.py:140
+msgid "Pendent"
+msgstr "Pendent"
+
+#: models.py:161
+msgid "first name"
+msgstr "Nom"
+
+#: models.py:163
+msgid "nickname"
+msgstr "Àlies"
+
+#: models.py:164
+msgid "slug"
+msgstr "codi slug"
+
+#: models.py:165
+msgid "about"
+msgstr "Descripció"
+
+#: models.py:166
+msgid "photo"
+msgstr "Fotografía"
+
+#: models.py:172 models.py:198 templates/contacts/person/detail.html:43
+#: templates/contacts/person/detail.html:65
+msgid "address"
+msgstr "Adreça"
+
+#: models.py:173 models.py:199
+msgid "postal code"
+msgstr "codi postal"
+
+#: models.py:174 models.py:200
+msgid "town"
+msgstr "localitat"
+
+#: models.py:177 tables.py:16 tables.py:45
+#: templates/contacts/person/detail.html:45
+msgid "email address"
+msgstr "correu electrònic"
+
+#: models.py:178 models.py:202 tables.py:44
+#: templates/contacts/person/detail.html:46
+#: templates/contacts/person/detail.html:67
+msgid "phone number"
+msgstr "Número de telèfon"
+
+#: models.py:179 templates/contacts/person/detail.html:47
+msgid "mobile number"
+msgstr "Número de mòbil"
+
+#: models.py:180 templates/contacts/person/detail.html:48
+msgid "twitter"
+msgstr ""
+
+#: models.py:183 templates/contacts/person/detail.html:53
+msgid "laboral category"
+msgstr "Categoria laboral"
+
+#: models.py:188 templates/contacts/person/detail.html:55
+msgid "NRP"
+msgstr ""
+
+#: models.py:189 templates/contacts/person/detail.html:56
+msgid "years experience"
+msgstr "Anys d’experiència docent"
+
+#: models.py:190 templates/contacts/person/detail.html:57
+msgid "cos docent"
+msgstr "Cos Docent"
+
+#: models.py:192 templates/contacts/person/detail.html:58
+msgid "degree"
+msgstr "Titulació"
+
+#: models.py:196 templates/contacts/person/detail.html:64
+msgid "center name"
+msgstr "Nom del centre"
+
+#: models.py:197
+msgid "center code"
+msgstr "Codi del centre"
+
+#: models.py:209 templates/contacts/person/detail.html:37
+msgid "remarks"
+msgstr "Observacions / Comentaris"
+
+#: models.py:211
+msgid "external id"
+msgstr "Ref. externa"
+
+#: models.py:215
+msgid "location"
+msgstr "ubicació"
+
+#: models.py:219 templates/contacts/person/detail.html:28
+msgid "date registration"
+msgstr "Data inscripció"
+
+#: models.py:220 templates/contacts/person/detail.html:32
+msgid "revision"
+msgstr "Revisió "
+
+#: models.py:222 templates/contacts/person/detail.html:33
+msgid "paid"
+msgstr "Pagat"
+
+#: models.py:223 templates/contacts/person/detail.html:34
+msgid "date paid"
+msgstr "Pagat en data"
+
+#: models.py:224 templates/contacts/person/detail.html:35
+msgid "date mail not paid"
+msgstr "Data enviament mail no pagat"
+
+#: models.py:225 templates/contacts/person/detail.html:36
+msgid "date mail registration"
+msgstr "Data correu de registre ok"
+
+#: models.py:242
+msgid "person"
+msgstr "Persona"
+
+#: models.py:243
+msgid "people"
+msgstr "Persones"
+
+#: models.py:344
+msgid "subject"
+msgstr "assumpte"
+
+#: models.py:346
+msgid "body"
+msgstr "Cos del missatge"
+
+#: models.py:347
+msgid "attachment"
+msgstr "adjunt"
+
+#: models.py:348
+msgid "second attachment"
+msgstr "Segon adjunt"
+
+#: models.py:357
+msgid "Mail template"
+msgstr "Plantilla de correu"
+
+#: models.py:358
+msgid "Mail templates"
+msgstr "Plantilles de correu"
+
+#: tables.py:12 tables.py:30 tables.py:51
+msgid "Actions"
+msgstr "Accions"
+
+#: functions/mailtemplate.py:26
+msgid "Mail not sent"
+msgstr "Mail no enviat"
+
+#: functions/mailtemplate.py:45
+msgid "Error generating pdf"
+msgstr "Error al generar el pdf"
+
+#: functions/mailtemplate.py:51 views/reporting.py:188 views/reporting.py:218
+msgid "Mail sent"
+msgstr "Correu electrònic enviat"
+
+#: functions/mailtemplate.py:55
+msgid "Error sending mail"
+msgstr "Ha hagut un error quan s'enviava el correu electrònic"
+
+#: templates/contacts/_comment_list.html:6
+msgid "Notes"
+msgstr "Notes"
+
+#: templates/contacts/base.html:6 templates/contacts/base_pdf.html:6
+msgid "Contacts"
+msgstr "Inscripcions"
+
+#: templates/contacts/base.html:64
+msgid "Logout"
+msgstr "Surt"
+
+#: templates/contacts/base.html:91
+msgid "Latest records"
+msgstr "Darrers registres"
+
+#: templates/contacts/login.html:5
+#, fuzzy
+msgid "Welcome to Inscripcions-CFD"
+msgstr "Benvingut/da a Inscripcions JAEM"
+
+#: templates/contacts/login.html:13
+msgid "Your username and password didn"
+msgstr "L'usuari i contrasenya no són correctes"
+
+#: templates/contacts/login.html:20 templates/contacts/login.html.py:24
+msgid "Login"
+msgstr "Identifica't"
+
+#: templates/contacts/course/create.html:5
+#: templates/contacts/course/create.html:8
+#, fuzzy
+msgid "Add a new course"
+msgstr "Alta d'una nova inscripció"
+
+#: templates/contacts/course/create.html:16
+#: templates/contacts/mailtemplate/create.html:16
+#: templates/contacts/person/create.html:16
+msgid "Create and continue"
+msgstr "Dóna d'alta i continua"
+
+#: templates/contacts/course/create.html:23
+#: templates/contacts/course/delete.html:36
+#: templates/contacts/course/detail.html:23
+#: templates/contacts/course/update.html:25
+#: templates/contacts/mailtemplate/create.html:23
+#: templates/contacts/mailtemplate/delete.html:36
+#: templates/contacts/mailtemplate/detail.html:25
+#: templates/contacts/mailtemplate/update.html:25
+#: templates/contacts/person/cancel.html:58
+#: templates/contacts/person/create.html:23
+#: templates/contacts/person/delete.html:36
+#: templates/contacts/person/detail.html:77
+#: templates/contacts/person/import.html:51
+#: templates/contacts/person/map.html:79
+#: templates/contacts/person/stats.html:50
+#: templates/contacts/person/synchronize.html:29
+#: templates/contacts/person/update.html:88
+#: templates/contacts/person/update_status.html:21
+msgid "Return to list"
+msgstr "Torna a la llista"
+
+#: templates/contacts/course/delete.html:4
+#: templates/contacts/course/delete.html:7
+#: templates/contacts/course/delete.html:29
+#: templates/contacts/course/detail.html:26
+#: templates/contacts/course/update.html:28
+#: templates/contacts/mailtemplate/delete.html:4
+#: templates/contacts/mailtemplate/delete.html:7
+#: templates/contacts/mailtemplate/delete.html:29
+#: templates/contacts/mailtemplate/detail.html:28
+#: templates/contacts/mailtemplate/update.html:28
+#: templates/contacts/person/delete.html:4
+#: templates/contacts/person/delete.html:7
+#: templates/contacts/person/delete.html:29
+#: templates/contacts/person/detail.html:96
+#: templates/contacts/person/update.html:107
+msgid "Delete"
+msgstr "Esborra"
+
+#: templates/contacts/course/delete.html:13
+#: templates/contacts/mailtemplate/delete.html:13
+#: templates/contacts/person/cancel.html:25
+#: templates/contacts/person/delete.html:13
+#: templates/contacts/person/list.html:16
+msgid "Warning!"
+msgstr "Atenció!"
+
+#: templates/contacts/course/delete.html:14
+#: templates/contacts/mailtemplate/delete.html:14
+#: templates/contacts/person/delete.html:14
+msgid "You are about to delete this record. Do you want to continue?"
+msgstr "Estàs a punt d'esborrar aquest registre. Vols continuar?"
+
+#: templates/contacts/course/delete.html:20
+#: templates/contacts/mailtemplate/delete.html:20
+#: templates/contacts/person/cancel.html:36
+#: templates/contacts/person/delete.html:20
+msgid "Confirm"
+msgstr "Confirma"
+
+#: templates/contacts/course/delete.html:23
+#: templates/contacts/mailtemplate/delete.html:23
+#: templates/contacts/person/cancel.html:39
+#: templates/contacts/person/delete.html:23
+msgid "No"
+msgstr "No"
+
+#: templates/contacts/course/delete.html:24
+#: templates/contacts/mailtemplate/delete.html:24
+#: templates/contacts/person/cancel.html:40
+#: templates/contacts/person/delete.html:24
+msgid "Yes"
+msgstr "Sí"
+
+#: templates/contacts/course/detail.html:12
+#: templates/contacts/mailtemplate/detail.html:12
+msgid "Code"
+msgstr "Codi"
+
+#: templates/contacts/course/detail.html:13
+msgid "Title"
+msgstr ""
+
+#: templates/contacts/course/detail.html:14
+msgid "Moodle URL"
+msgstr ""
+
+#: templates/contacts/course/detail.html:15
+#: templates/contacts/mailtemplate/detail.html:14
+msgid "Description"
+msgstr "Despripció"
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "Record created in"
+msgstr "Registre creat el"
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "by"
+msgstr "per"
+
+#: templates/contacts/course/detail.html:18
+#: templates/contacts/course/update.html:20
+#: templates/contacts/mailtemplate/detail.html:20
+#: templates/contacts/mailtemplate/update.html:20
+#: templates/contacts/person/detail.html:72
+#: templates/contacts/person/update.html:78
+msgid "Modified in"
+msgstr "Modificat el"
+
+#: templates/contacts/course/detail.html:24
+#: templates/contacts/course/update.html:5
+#: templates/contacts/mailtemplate/detail.html:26
+#: templates/contacts/mailtemplate/update.html:5
+#: templates/contacts/person/cancel.html:60
+#: templates/contacts/person/detail.html:78
+#: templates/contacts/person/update.html:5
+msgid "Edit"
+msgstr "Edita"
+
+#: templates/contacts/course/detail.html:25
+#: templates/contacts/course/update.html:27
+#: templates/contacts/mailtemplate/detail.html:27
+#: templates/contacts/mailtemplate/update.html:27
+msgid "Copy"
+msgstr "Copia"
+
+#: templates/contacts/course/list.html:5 templates/contacts/course/list.html:8
+#, fuzzy
+msgid "List of courses"
+msgstr "Llista de grups"
+
+#: templates/contacts/course/list.html:18
+#: templates/contacts/mailtemplate/list.html:18
+#: templates/contacts/person/list.html:44
+msgid "Create"
+msgstr "Crea"
+
+#: templates/contacts/course/update.html:16
+#: templates/contacts/mailtemplate/update.html:16
+#: templates/contacts/person/revision.html:21
+#: templates/contacts/person/update.html:74
+msgid "Save"
+msgstr "Desa"
+
+#: templates/contacts/course/update.html:26
+#: templates/contacts/mailtemplate/update.html:26
+#: templates/contacts/person/cancel.html:59
+#: templates/contacts/person/update.html:89
+msgid "Read"
+msgstr "Lectura"
+
+#: templates/contacts/mailtemplate/create.html:5
+#: templates/contacts/mailtemplate/create.html:8
+msgid "Add a new mail template"
+msgstr "Afegir una nova plantilla de correu"
+
+#: templates/contacts/mailtemplate/detail.html:13
+msgid "Subject"
+msgstr "Assumpte"
+
+#: templates/contacts/mailtemplate/detail.html:15
+msgid "Body"
+msgstr "Cos del missatge"
+
+#: templates/contacts/mailtemplate/detail.html:16
+msgid "Attachment"
+msgstr "Adjunt"
+
+#: templates/contacts/mailtemplate/detail.html:17
+msgid "Second attachment"
+msgstr "Segon adjunt"
+
+#: templates/contacts/mailtemplate/list.html:5
+#: templates/contacts/mailtemplate/list.html:8
+msgid "List of mail templates"
+msgstr "Llista de plantilles de correu"
+
+#: templates/contacts/person/cancel.html:6
+#: templates/contacts/person/cancel.html:15
+#: templates/contacts/person/cancel.html:47
+#: templates/contacts/person/detail.html:92
+#: templates/contacts/person/update.html:103
+msgid "Get inscription back"
+msgstr "Reactiva la inscripció"
+
+#: templates/contacts/person/cancel.html:8
+#: templates/contacts/person/cancel.html:17
+#: templates/contacts/person/cancel.html:49
+#: templates/contacts/person/detail.html:94
+#: templates/contacts/person/update.html:105
+msgid "Cancel inscription"
+msgstr "Cancel·la la inscripció"
+
+#: templates/contacts/person/cancel.html:27
+msgid "You are about to get this inscription back. Do you want to continue?"
+msgstr "Estàs a punt de recuperar aquesta inscripció. Vols continuar?"
+
+#: templates/contacts/person/cancel.html:29
+msgid "You are about to cancel this inscription. Do you want to continue?"
+msgstr "Estàs a punt de cancel·lar aquesta inscripció. Vols continuar?"
+
+#: templates/contacts/person/create.html:5
+#: templates/contacts/person/create.html:8
+msgid "Add a new Person"
+msgstr "Alta d'una nova inscripció"
+
+#: templates/contacts/person/detail.html:16
+#: templates/contacts/person/update_form_old.html:3
+msgid "Personal Data"
+msgstr "Dades personals"
+
+#: templates/contacts/person/detail.html:18
+msgid "Nom"
+msgstr "Nom"
+
+#: templates/contacts/person/detail.html:23
+msgid "ID Card"
+msgstr "DNI"
+
+#: templates/contacts/person/detail.html:27
+#, fuzzy
+msgid "Registre cursos"
+msgstr "Registre JAEM"
+
+#: templates/contacts/person/detail.html:30
+msgid "Contact type"
+msgstr "Tipus d'inscripció"
+
+#: templates/contacts/person/detail.html:42
+msgid "Dades de contacte"
+msgstr ""
+
+#: templates/contacts/person/detail.html:52
+msgid "Dades laborals"
+msgstr "Dades laborals"
+
+#: templates/contacts/person/detail.html:63
+msgid "Centre de feina"
+msgstr "Centre de feina"
+
+#: templates/contacts/person/detail.html:80
+#: templates/contacts/person/update.html:91
+msgid "Justificant de pagament"
+msgstr ""
+
+#: templates/contacts/person/detail.html:83
+#: templates/contacts/person/update.html:94
+msgid "Justificant de inscripcio"
+msgstr "Justificant d'inscripció"
+
+#: templates/contacts/person/detail.html:86
+#: templates/contacts/person/detail.html:105
+#: templates/contacts/person/update.html:97
+#: templates/contacts/person/update.html:116
+msgid "Send mail inscription ok"
+msgstr "Envia correu inscripció"
+
+#: templates/contacts/person/detail.html:89
+#: templates/contacts/person/detail.html:119
+#: templates/contacts/person/update.html:100
+#: templates/contacts/person/update.html:129
+msgid "Send mail payment overdue"
+msgstr "Envia correu pagament retrasat"
+
+#: templates/contacts/person/detail.html:99
+#: templates/contacts/person/detail.html:110
+#: templates/contacts/person/detail.html:124
+#: templates/contacts/person/detail.html:135
+#: templates/contacts/person/update.html:110
+#: templates/contacts/person/update.html:121
+#: templates/contacts/person/update.html:134
+#: templates/contacts/person/update.html:144
+msgid "Send mail"
+msgstr "Enviar correu"
+
+#: templates/contacts/person/detail.html:107
+#: templates/contacts/person/update.html:118
+msgid "You are about to send the inscription ok mail"
+msgstr "Enviaràs un correu de confirmació de la inscripció"
+
+#: templates/contacts/person/detail.html:109
+#: templates/contacts/person/detail.html:123
+#: templates/contacts/person/detail.html:136
+#: templates/contacts/person/update.html:120
+#: templates/contacts/person/update.html:133
+#: templates/contacts/person/update.html:145
+msgid "Close"
+msgstr "Tanca"
+
+#: templates/contacts/person/detail.html:110
+#: templates/contacts/person/detail.html:124
+#: templates/contacts/person/detail.html:138
+#: templates/contacts/person/update.html:121
+#: templates/contacts/person/update.html:134
+#: templates/contacts/person/update.html:147
+msgid "sending"
+msgstr "enviant"
+
+#: templates/contacts/person/detail.html:121
+#: templates/contacts/person/update.html:131
+msgid "You are about to send a payment overdue mail"
+msgstr "Enviaràs un correu d'avís de pagament retrasat"
+
+#: templates/contacts/person/detail.html:137
+#: templates/contacts/person/update.html:146
+msgid "You are about to send the mail with subject: "
+msgstr "Enviaràs un correu amb assumpte:"
+
+#: templates/contacts/person/import.html:4
+#: templates/contacts/person/import.html:7
+msgid "Import people from CSV"
+msgstr "Importa inscripcions des de fitxer CSV"
+
+#: templates/contacts/person/import.html:31
+msgid "Error"
+msgstr ""
+
+#: templates/contacts/person/import.html:37
+msgid "Load file"
+msgstr "Carrega fitxer"
+
+#: templates/contacts/person/list.html:5 templates/contacts/person/list.html:8
+msgid "List of contacts"
+msgstr "Llista d'inscripcions"
+
+#: templates/contacts/person/list.html:17
+#: templates/contacts/person/list.html:45
+#: templates/contacts/person/synchronize.html:23
+msgid "Synchronize"
+msgstr "Sincronitza"
+
+#: templates/contacts/person/list.html:27
+#: templates/contacts/person/list.html:36
+#: templates/contacts/person/map.html:16 templates/contacts/person/map.html:28
+msgid "Filter"
+msgstr "Filtra"
+
+#: templates/contacts/person/list.html:46
+msgid "Export"
+msgstr "Exporta"
+
+#: templates/contacts/person/list.html:47
+msgid "Import"
+msgstr "Importa"
+
+#: templates/contacts/person/list.html:48
+#: templates/contacts/person/stats.html:6
+#: templates/contacts/person/stats.html:9
+#: templates/contacts/person/update_status.html:22
+msgid "Inscription stats"
+msgstr "Estadístiques d'inscripcions"
+
+#: templates/contacts/person/list.html:49
+#: templates/contacts/person/stats.html:51
+#: templates/contacts/person/update_status.html:5
+#: templates/contacts/person/update_status.html:8
+msgid "Update records status"
+msgstr "Actualitza estat dels registres"
+
+#: templates/contacts/person/map.html:4 templates/contacts/person/map.html:7
+msgid "Map of contacts"
+msgstr "Mapa d'inscripcions"
+
+#: templates/contacts/person/revision.html:4
+#: templates/contacts/person/revision.html:7
+#: templates/contacts/person/revision.html:16
+msgid "Revision"
+msgstr "Revisió"
+
+#: templates/contacts/person/revision.html:28
+msgid "Return to record"
+msgstr "Torna al contacte"
+
+#: templates/contacts/person/stats.html:19
+msgid "Params"
+msgstr "Paràmetres"
+
+#: templates/contacts/person/stats.html:22
+msgid "Set"
+msgstr "Cerca"
+
+#: templates/contacts/person/synchronize.html:5
+#: templates/contacts/person/synchronize.html:8
+msgid "Synchronize inscriptions from SPIP"
+msgstr "Sincronitza les inscripcions des de SPIP"
+
+#: templates/contacts/person/update.html:16
+#: templates/contacts/person/update.html:23
+#: templates/contacts/person/update.html:30
+#: templates/contacts/person/update.html:37
+msgid "Error at"
+msgstr "Error a "
+
+#: templates/contacts/person/update.html:16
+#: templates/contacts/person/update.html:46
+msgid "Identification"
+msgstr "Identificació"
+
+#: templates/contacts/person/update.html:23
+#: templates/contacts/person/update.html:47
+#, fuzzy
+msgid "Registration"
+msgstr "Informació de la inscripció"
+
+#: templates/contacts/person/update.html:30
+#: templates/contacts/person/update.html:48
+msgid "Contact information"
+msgstr "Informació de contactes"
+
+#: templates/contacts/person/update.html:37
+#: templates/contacts/person/update.html:49
+msgid "Laboral data"
+msgstr "Informació laboral"
+
+#: templates/contacts/person/update_form_old.html:15
+msgid "Registration info"
+msgstr "Informació de la inscripció"
+
+#: templates/contacts/person/update_form_old.html:20
+msgid "Contact info"
+msgstr "Informació de contacte"
+
+#: templates/contacts/person/update_form_old.html:34
+msgid "Location"
+msgstr "Ubicació"
+
+#~ msgid "Map"
+#~ msgstr "Mapa"
+
+#~ msgid "JAEM registration"
+#~ msgstr "Registre JAEM"
+
+#, fuzzy
+#~ msgid "Update records statusP"
+#~ msgstr "Darrers registres"
+
+#~ msgid "back to the top"
+#~ msgstr "Torna adalt"
+
+#, fuzzy
+#~ msgid "Welcome to django-JAEM-Inscripcions"
+#~ msgstr "Benvingut/da a django-Contactes-IniciativaVerds"
+
+#~ msgid "Submit"
+#~ msgstr "Envia"
+
+#~ msgid "Birthday"
+#~ msgstr "Data de naixement"
+
+#~ msgid "Interests"
+#~ msgstr "Interessos"
+
+#~ msgid "job"
+#~ msgstr "Feina"
+
+#~ msgid "Revisions:"
+#~ msgstr "Revisions:"
+
+#~ msgid "Sympathizer"
+#~ msgstr "Simpatitzant"
+
+#~ msgid "Affiliated"
+#~ msgstr "Afiliat/da"
+
+#~ msgid "interests"
+#~ msgstr "Interessos"
+
+#~ msgid "equo"
+#~ msgstr "EQUO"
+
+#~ msgid "city"
+#~ msgstr "municipi"
+
+#~ msgid "revision result"
+#~ msgstr "Resultat revisió"
+
+#~ msgid "birthday"
+#~ msgstr "Data de naixement"
+
+#~ msgid "membership fee"
+#~ msgstr "Quota"
+
+#~ msgid "CCC Bank"
+#~ msgstr "CCC Banc"
+
+#~ msgid "CCC Office"
+#~ msgstr "CCC Oficina"
+
+#~ msgid "CCC DC"
+#~ msgstr "CCC DC"
+
+#~ msgid "CCC Account"
+#~ msgstr "CCC Compte"
+
+#~ msgid "name"
+#~ msgstr "Nom"
+
+#~ msgid "company"
+#~ msgstr "Enitat"
+
+#~ msgid "companies"
+#~ msgstr "entitats"
+
+#~ msgid "group"
+#~ msgstr "grup"
+
+#~ msgid "groups"
+#~ msgstr "grups"
+
+#~ msgid "Work"
+#~ msgstr "Feina"
+
+#~ msgid "Mobile"
+#~ msgstr "Mòbil"
+
+#~ msgid "Fax"
+#~ msgstr "Fax"
+
+#~ msgid "Pager"
+#~ msgstr "Paginador"
+
+#~ msgid "Home"
+#~ msgstr "Casa"
+
+#~ msgid "Other"
+#~ msgstr "Altre"
+
+#~ msgid "number"
+#~ msgstr "número"
+
+#~ msgid "Personal"
+#~ msgstr "Personal"
+
+#~ msgid "im account"
+#~ msgstr "Missatgeria instantània"
+
+#~ msgid "service"
+#~ msgstr "Servei"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "web site"
+#~ msgstr "Lloc web"
+
+#~ msgid "web sites"
+#~ msgstr "llocs webs"
+
+#~ msgid "street"
+#~ msgstr "direcció"
+
+#~ msgid "district"
+#~ msgstr "barriada"
+
+#~ msgid "country"
+#~ msgstr "país"
+
+#~ msgid "street address"
+#~ msgstr "direcció"
+
+#~ msgid "street addresses"
+#~ msgstr "direccions"
+
+#~ msgid "occasion"
+#~ msgstr "oportunitat"
+
+#~ msgid "date"
+#~ msgstr "data"
+
+#~ msgid "every year"
+#~ msgstr "cada any"
+
+#~ msgid "special date"
+#~ msgstr "data especial"
+
+#~ msgid "special dates"
+#~ msgstr "dates especials"
+
+#~ msgid "charge"
+#~ msgstr "càrrec"
+
+#~ msgid "unactive"
+#~ msgstr "no actiu"
+
+#~ msgid "date end"
+#~ msgstr "Data finalització"
+
+#~ msgid "result revision"
+#~ msgstr "Resultat revisió"
+
+#~ msgid "observation"
+#~ msgstr "Observacions"
+
+#~ msgid "last revision"
+#~ msgstr "Darrera revisió"
+
+#~ msgid "date joined"
+#~ msgstr "Afegit en data"
+
+#~ msgid "date unactived"
+#~ msgstr "Desactivat en data"
+
+#~ msgid "People"
+#~ msgstr "Persones"
+
+#~ msgid "History"
+#~ msgstr "Història"
+
+#~ msgid "View on site"
+#~ msgstr "Veure al lloc web"
+
+#~ msgid "Company"
+#~ msgstr "Entitat"
+
+#~ msgid "Email addresses"
+#~ msgstr "Correus electrònics"
+
+#~ msgid "Email Addresses"
+#~ msgstr "Correu electrònic"
+
+#~ msgid "Instant messengers"
+#~ msgstr "Missatgeria instantània"
+
+#~ msgid "Instant Messengers"
+#~ msgstr "Missatgeria instantània"
+
+#~ msgid "Institutional Charges"
+#~ msgstr "Càrrecs institucionals"
+
+#~ msgid "Institutional charges"
+#~ msgstr "Càrrecs institucionals"
+
+#~ msgid "Internal Charges"
+#~ msgstr "Càrrecs interns"
+
+#~ msgid "Internal charges"
+#~ msgstr "Càrrecs interns"
+
+#~ msgid "Phone numbers"
+#~ msgstr "Números de telèfon"
+
+#~ msgid "Phone Numbers"
+#~ msgstr "Números de telèfon"
+
+#~ msgid "Special Dates"
+#~ msgstr "Dates especials"
+
+#~ msgid "Special dates"
+#~ msgstr "Dates especial"
+
+#~ msgid "Street addresses"
+#~ msgstr "Direccions"
+
+#~ msgid "Street Addresses"
+#~ msgstr "Direccions"
+
+#~ msgid "Web sites"
+#~ msgstr "Llocs web"
+
+#~ msgid "Create a new Company"
+#~ msgstr "Alta de nova entitat"
+
+#~ msgid "People in this company"
+#~ msgstr "Persones que pertànyen a aquesta entitat"
+
+#~ msgid "Create a new Group"
+#~ msgstr "Alta d'un nou grup"
+
+#~ msgid "People in this group"
+#~ msgstr "Persones en aquest grup"
+
+#~ msgid "Add person to this group"
+#~ msgstr "Afegeix persones a aquest grup"
+
+#~ msgid "Person"
+#~ msgstr "Persona"
+
+#~ msgid "Charge"
+#~ msgstr "Càrrec"
+
+#~ msgid "Add"
+#~ msgstr "Afegeix"
+
+#~ msgid "Membership fee"
+#~ msgstr "Quota"
+
+#~ msgid "Equo"
+#~ msgstr "EQUO"
+
+#~ msgid "Bank account"
+#~ msgstr "Compte bancari"
+
+#~ msgid "Member of these groups"
+#~ msgstr "Membre d'aquests grups"
+
+#~ msgid "at"
+#~ msgstr "a"
+
+#~ msgid "Member of these companies"
+#~ msgstr "Membre d'aquestes entitats"
+
+#~ msgid "Groups"
+#~ msgstr "Grups"
+
+#~ msgid "Companies"
+#~ msgstr "Entitats"
+
+#, fuzzy
+#~ msgid "Job"
+#~ msgstr "Feina"

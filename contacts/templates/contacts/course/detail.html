@@ -1,0 +1,27 @@
+{% extends "contacts/course/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ block.super }}: {{ object }}{% endblock %}
+
+{% block content_title %}
+        <span class="fn">{{ object }}</span>
+{% endblock %}
+
+{% block content %}
+    <p>
+        <b>{% trans "Code" %}:</b> {{ object.code }}<br />
+        <b>{% trans "Title" %}:</b> {{ object.title }}<br />
+        <b>{% trans "Moodle URL" %}:</b> <a href="{{ object.url_moodle }}">{{ object.url_moodle }}</a><br />
+        <b>{% trans "Description" %}:</b> {{ object.description|linebreaks }}<br />
+    </p>
+    <small>
+        {% trans 'Record created in' %} {{ object.date_added }}{% if object.user_add %} {% trans 'by' %} {{ object.user_add }}{% endif %}. {% trans 'Modified in' %} {{ object.date_modified }}{% if object.user_modify %} {% trans 'by' %} {{ object.user_modify }}{% endif %}.
+    </small>
+{% endblock %}
+
+{% block actions %}
+    <a href="{%  url contacts_course_list %}"  class="btn"><i class="icon-arrow-left"></i> {% trans "Return to list" %}</a>
+    <a href="{{ object.get_update_url }}" class="btn"><i class="icon-edit"></i> {% trans "Edit" %}</a>
+    <a href="{{ object.get_copy_url }}" class="btn"><i class="icon-repeat"></i> {% trans "Copy" %}</a>
+    <a href="{{ object.get_delete_url }}" class="btn"><i class="icon-trash"></i> {% trans "Delete" %}</a>
+{% endblock %}
