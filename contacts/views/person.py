@@ -249,6 +249,7 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                 person = Person()
                 person.external_id = 0
                 laboral_levels = []
+                courses = []
 
                 for row in json_data['list']:
                     if row['id_donnee'] != str(person.external_id) and person.external_id > 0:
@@ -257,10 +258,15 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                         person.user_add = user
                         person.user_modify = user
                         person.save()
+                        # alta relacio persona cursos
+                        for course_id in courses
+                            person.courses.add(Course.objects.get(id=course_id))
+
                         registres = registres + 1
                         # nova persona
                         person = Person()
                         laboral_levels = []
+                        courses = []
 
                     person.external_id = row['id_donnee']
                     person.date_registration = row['date']
@@ -320,7 +326,7 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                         person.lang = row['rang']
                     # nou, cursos
                     elif row['champ'] == 'multiple_2':
-                        person.courses.add(Course.objects.get(id=row['rang']))
+                        courses.append(row['rang'])
 
 
                 # Hem de donar d'alta la darrera persona
@@ -329,6 +335,9 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                     person.user_add = user
                     person.user_modify = user
                     person.save()
+                    # alta relacio persona cursos
+                    for course_id in courses
+                        person.courses.add(Course.objects.get(id=course_id))
                     registres = registres + 1
 
 
