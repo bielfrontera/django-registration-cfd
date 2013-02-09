@@ -29,7 +29,10 @@ def check_pending_sync():
     if json_data['error']:
         regs_pending = -1
     else:
-        regs_pending = json_data['pending']
+        try:
+            regs_pending = int(json_data['pending'])
+        except exceptions.ValueError:
+            regs_pending = json_data['pending']
 
     return regs_pending
 
