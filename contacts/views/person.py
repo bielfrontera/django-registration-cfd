@@ -259,7 +259,7 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                         person.user_modify = user
                         person.save()
                         # alta relacio persona cursos
-                        for course_id in courses
+                        for course_id in courses:
                             person.courses.add(Course.objects.get(id=course_id))
 
                         registres = registres + 1
@@ -336,7 +336,7 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                     person.user_modify = user
                     person.save()
                     # alta relacio persona cursos
-                    for course_id in courses
+                    for course_id in courses:
                         person.courses.add(Course.objects.get(id=course_id))
                     registres = registres + 1
 
