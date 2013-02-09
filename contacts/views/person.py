@@ -410,6 +410,7 @@ def create(request, template='contacts/person/create.html'):
             p.slug = tmp_slug
             p.user_add = user
             p.user_modify = user
+            p.date_registration = datetime.today()
             p.save()
             return HttpResponseRedirect(p.get_update_url())
     else:
