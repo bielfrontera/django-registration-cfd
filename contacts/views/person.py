@@ -79,7 +79,7 @@ def list(request, page=1, template='contacts/person/list.html'):
     if not request.session:
         request.session={}
 
-    regs_not_sync =  -1 #request.session.get('regs_not_sync',-1)
+    regs_not_sync = request.session.get('regs_not_sync',-1)
     if regs_not_sync == -1:
         regs_not_sync = check_pending_sync()
         request.session['regs_not_sync'] = regs_not_sync
