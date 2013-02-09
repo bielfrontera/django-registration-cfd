@@ -13,7 +13,7 @@ import csv
 
 import MySQLdb
 from django.conf import settings
-from contacts.models import Person
+from contacts.models import Person, Course
 from contacts.forms import PersonCreateForm, PersonFilterForm, ImportCSVForm, PersonIdentificationForm,PersonRegistrationForm, PersonAddressForm,                             PersonLaboralForm, SynchronizeSPIPForm, PersonLaboralLevelsForm
 from contacts.tables import PersonTable, ExportPersonTable
 
@@ -318,7 +318,9 @@ def synchronizeSPIPForm(request, template='contacts/person/synchronize.html'):
                         person.remarks = row['valeur'] #.decode("utf8", "ignore")
                     elif row['champ'] == 'select_6':
                         person.lang = row['rang']
-
+                    # nou, cursos
+                    elif row['champ'] == 'multiple_2':
+                        person.courses.add(Course.objects.get(id=row['rang']))
 
 
                 # Hem de donar d'alta la darrera persona
