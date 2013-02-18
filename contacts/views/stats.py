@@ -4,7 +4,7 @@ from django.http import Http404, HttpResponse, HttpResponseForbidden, HttpRespon
 from django.shortcuts import render_to_response, get_object_or_404, render
 from django.db.models import Count
 from django.template import RequestContext
-from contacts.models import Person, CONTACT_TYPE_CHOICES, LANG_CHOICES, MATH_SOCIETY_CHOICES
+from contacts.models import Person, Course, CONTACT_TYPE_CHOICES, LANG_CHOICES, MATH_SOCIETY_CHOICES
 from contacts.forms import StatsForm
 
 
@@ -53,6 +53,11 @@ def inscription(request,  template='contacts/person/stats.html'):
         for key  in provinces:
             regs = Person.objects.filter(home_province=key).values('status').annotate(Count("id")).order_by()
             stat = {'contact_type': key,'contact_type_display': key, 'regs' : regs  }
+            inscription_stats.append(stat)
+    elif stats_by == 'course':
+        for course in Course.objects.all():
+            regs = Person.objects.filter(courses__in=str(course.id)).values('status').annotate(Count("id")).order_by()
+            stat = {'contact_type': course.id,'contact_type_display': course.title, 'regs' : regs  }
             inscription_stats.append(stat)
 
 

@@ -26,7 +26,12 @@
     <p>
         <h3>{% trans "Registre cursos" %}</h3>
         <b>{% trans "date registration" %}:</b> {{ object.date_registration|date:"d/m/Y" }}<br />
-        <b>{% trans "Courses" %}:</b> {{ object.get_courses_display }}<br />
+        <b>{% trans "Courses" %}:</b>
+        <ul>
+        {% for course in object.courses.all %}
+            <li>{{ course.title }}</li>
+        {% endfor %}
+        </ul>
         <b>{% trans "Contact type" %}:</b> {{ object.get_contact_type_display }}<br />
         <b>{% trans "math society" %}:</b> {{ object.get_math_society_display }}<br />
         <b>{% trans "revision" %}:</b> {{ object.get_revision_display }}<br />

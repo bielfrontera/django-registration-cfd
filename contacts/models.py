@@ -165,12 +165,12 @@ REVISION_CHOICES = (
 )
 
 STATUS_CHOICES = (
-    ('pendent', 'Pendent'),
-    ('ok_notpaid', 'Revisat / No pagat'),
-    ('notpaid_late', 'Pagament retrassat'),
-    ('nook_paid', 'No revisat / Pagat'),
-    ('ok_all', 'Inscripció ok'),
-    ('cancelled', 'Inscripció anul·lada'),
+    ('pendent', 'Pendiente'),
+    ('ok_notpaid', 'Revisado / No pagado'),
+    ('notpaid_late', 'Pago Restrasdo'),
+    ('nook_paid', 'No revisado / Pagado'),
+    ('ok_all', 'Inscripción ok'),
+    ('cancelled', 'Inscripción anulada'),
 )
 
 
@@ -356,6 +356,11 @@ class Person(models.Model):
             'slug': self.slug,
         })
 
+    @permalink
+    def get_mailhistory_url(self):
+        return ('contacts_person_mailhistory', None, {
+            'id': self.id,
+        })
 
     @property
     def get_courses_display(self):
@@ -365,6 +370,8 @@ class Person(models.Model):
     def get_math_society_display_mini(self):
         # MATH_SOCIETY_CHOICES_MINI
         return MATH_SOCIETY_CHOICES_MINI[self.math_society]
+
+
 
 
 class MailTemplate(models.Model):

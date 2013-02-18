@@ -144,7 +144,8 @@ STATS_CHOICES = (
     ('contact_type', _('contact type')),
     ('math_society', _('math society')),
     ('province', _('province')),
-    ('lang', _('lang')),
+    ('course', _('Course')),
+    # ('lang', _('lang')),
 
 )
 

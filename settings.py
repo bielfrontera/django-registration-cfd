@@ -121,6 +121,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 1025
 EMAIL_FROM = 'admin@domain.com'
+EMAIL_IMAP_HOST = 'localhost'
 
 try:
     from local_settings import *
