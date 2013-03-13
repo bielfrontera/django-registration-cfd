@@ -37,13 +37,13 @@ class MailTemplateTable(tables.Table):
 
 
 class ExportPersonTable(tables.Table):
-    fullname = tables.Column()
-    last_name = tables.Column()
     first_name = tables.Column()
+    last_name = tables.Column()
+    email_address = tables.Column(verbose_name=_('email address'))
+    home_town = tables.Column(verbose_name=_('city'))
+    courses = tables.TemplateColumn('{{ record.get_courses_display }}')
     contact_type = tables.TemplateColumn('{{ record.get_contact_type_display }}')
-    id_card  = tables.Column(verbose_name=_('ID card'),sortable=False)
-    phone_number  = tables.Column(verbose_name=_('phone number'),sortable=False)
-    email_address = tables.Column(sortable=False, verbose_name=_('email address'))
+    status = tables.TemplateColumn('{{ record.get_status_display }}')
 
 class CourseTable(tables.Table):
     template_actions = "<div style='width: 75px;'><a href='{{ record.get_update_url }}' title='Edit'><i class='icon-edit'></i></a> " + \
